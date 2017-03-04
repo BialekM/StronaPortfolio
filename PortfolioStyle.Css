@@ -13,6 +13,8 @@ body{
 	width: 300px;
 	height: 300px;
 	float: left;
+	display: table-cell;
+  	vertical-align: middle;
 	
 }
 
@@ -68,18 +70,23 @@ body{
 		#Bikes{
 			width: 300px;
 			height: 300px;
-			background: green;
 			background-image: url(min_mtb.jpg);
 			float: left;
-			text-align: center;
-			color: whitesmoke;
-			display:table-cell;
-   			vertical-align:middle;
 		}
-		#Bjj{
+		#CombatSports{
+			float: left;
+			width: 300px;
+			height: 300px;
+			background-image: url(bjj.jpg);
+			background-size: 100%;
 			float: left;
 		}
 		#technology{
+			float: left;
+			width: 300px;
+			height: 300px;
+			background-image: url(technology.jpg);
+			background-size: 100% 300px;
 			float: left;
 		}
 	#SecoundLine{
@@ -87,20 +94,53 @@ body{
 		width: 900px;
 		height: 300px;
 	}
-		#ChurchStudentGroup{
+		#Music{
 			float: left;
+			width: 300px;
+			height: 300px;
+			background-image: url(pobrane.png);
+			background-size: 100% 300px;		
 		}
 		#ProgramingInCSharp{
 			float: left;
+			width: 300px;
+			height: 300px;
+			background-image: url(csharp.png);
+			background-size: 100%;
 		}
 		#Coaching{
 			float: left;
+			width: 300px;
+			height: 300px;
+			background-image: url(Sports-Psychology.png);
+			background-size: 100%;
 		}
 	#ThirdLine{
 		background: Silver;
 		width: 900px;
 		height: 300px;
 	}
+		#WebDeveloping{
+			float: left;
+			width: 300px;
+			height: 300px;
+			background-image: url(It-Infrastructure-Domain.ico);
+			background-size: 100%;
+		}
+		#Diet{
+			float: left;
+			width: 300px;
+			height: 300px;
+			background-image: url(Diet.jpg);
+			background-size: 100%;
+		}
+		#Games{
+			float: left;
+			width: 300px;
+			height: 300px;
+			background-image: url(games.ico);
+			background-size: 100%;
+		}
 	
 	
 	
