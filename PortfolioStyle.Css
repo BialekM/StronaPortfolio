@@ -1,26 +1,19 @@
 body{
-	background: black;
+	background-image:url(mainbackground.jpg);
+	background-size: 200%;
 }
 #container{
 	background: blue;
-	width: 1050px;
-	height: 1100px;
+	width: 960px;
+	height: 1160px;
 	margin: 0 auto;
 }
 
-.tile{
-	background: white;
-	width: 300px;
-	height: 300px;
-	float: left;
-	display: table-cell;
-  	vertical-align: middle;
-	
-}
 
 #header{
-	background-image: url(preventia20829110715.jpg);
-	width: 1050px;
+	background-image: url(footer.jpg);
+	background-size: 100%; 
+	width: 1040px;
 	height: 200px;
 	text-align: right;
 	color: orangered;
@@ -28,50 +21,26 @@ body{
     vertical-align:middle;
 }
 
-#Left{
-	background: green;
-	width: 150px;
-	height: 900px;
-	float: left;
-}
-	#PersonalInfo{
-		background: green;
-		width: 150px;
-		height: 300px;
-		float: left;
-	}
 
-	#ProgramingInfo{
-		background: green;
-		width: 150px;
-		height: 300px;
-		float: left;
-	}
 
-	#StudyAndTournaments{
-		width: 150px;
-		height: 300px;
-		background: green;
-		float: left;
-	}
 
-#Right{
-	background: silver;
-	width: 900px;
-	height: 900px;
-	float: left;
-}
-	 #FirstLine{
-		width: 900px;
-		height: 300px;
-		background: silver;
-	}
+	 
 		
 		#Bikes{
 			width: 300px;
 			height: 300px;
 			background-image: url(min_mtb.jpg);
+			background-size: 100%;
 			float: left;
+			margin: 10px;
+		}
+		#Bikes:hover{
+			width: 300px;
+			height: 300px;
+			background-image: url(min_mtbHover.jpg);
+			background-size: 100%;
+			float: left;
+			margin: 10px;
 		}
 		#CombatSports{
 			float: left;
@@ -80,8 +49,10 @@ body{
 			background-image: url(bjj.jpg);
 			background-size: 100%;
 			float: left;
+			margin: 10px;
 		}
 		#technology{
+			margin: 10px;
 			float: left;
 			width: 300px;
 			height: 300px;
@@ -89,17 +60,14 @@ body{
 			background-size: 100% 300px;
 			float: left;
 		}
-	#SecoundLine{
-		background: Silver;
-		width: 900px;
-		height: 300px;
-	}
+	
 		#Music{
 			float: left;
 			width: 300px;
 			height: 300px;
 			background-image: url(pobrane.png);
-			background-size: 100% 300px;		
+			background-size: 100% 300px;
+			margin: 10px;		
 		}
 		#ProgramingInCSharp{
 			float: left;
@@ -107,6 +75,7 @@ body{
 			height: 300px;
 			background-image: url(csharp.png);
 			background-size: 100%;
+			margin: 10px;
 		}
 		#Coaching{
 			float: left;
@@ -114,18 +83,16 @@ body{
 			height: 300px;
 			background-image: url(Sports-Psychology.png);
 			background-size: 100%;
+			margin: 10px;
 		}
-	#ThirdLine{
-		background: Silver;
-		width: 900px;
-		height: 300px;
-	}
+	
 		#WebDeveloping{
 			float: left;
 			width: 300px;
 			height: 300px;
-			background-image: url(It-Infrastructure-Domain.ico);
+			background-image: url(websymbol.jpg);
 			background-size: 100%;
+			margin: 10px;
 		}
 		#Diet{
 			float: left;
@@ -133,6 +100,7 @@ body{
 			height: 300px;
 			background-image: url(Diet.jpg);
 			background-size: 100%;
+			margin: 10px;
 		}
 		#Games{
 			float: left;
@@ -140,6 +108,7 @@ body{
 			height: 300px;
 			background-image: url(games.ico);
 			background-size: 100%;
+			margin: 10px;
 		}
 	
 	
