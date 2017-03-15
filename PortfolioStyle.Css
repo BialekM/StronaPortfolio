@@ -29,18 +29,28 @@ body{
 		#Bikes{
 			width: 300px;
 			height: 300px;
-			background-image: url(min_mtb.jpg);
-			background-size: 100%;
 			float: left;
 			margin: 10px;
+			color: greenyellow;
 		}
-		#Bikes:hover{
+		
+		#BikesBackground{
 			width: 300px;
 			height: 300px;
-			background-image: url(min_mtbHover.jpg);
+			position: relative;
+			background-image: url(min_mtb.jpg);
 			background-size: 100%;
-			float: left;
-			margin: 10px;
+			z-index: 1;
+		}
+		#BikesText{
+			width: 300px;
+			height: 300px;
+			position: relative;
+			z-index: 2;
+			text-align: center;
+		}
+		#BikesBackground:hover{ 
+			opacity: 0.5;
 		}
 		#CombatSports{
 			float: left;
@@ -51,6 +61,10 @@ body{
 			float: left;
 			margin: 10px;
 		}
+
+		#CombatSports:hover{
+			opacity: 0.5;
+		}
 		#technology{
 			margin: 10px;
 			float: left;
@@ -59,6 +73,10 @@ body{
 			background-image: url(technology.jpg);
 			background-size: 100% 300px;
 			float: left;
+		}
+
+		#technology:hover{
+			opacity: 0.5;
 		}
 	
 		#Music{
@@ -69,6 +87,10 @@ body{
 			background-size: 100% 300px;
 			margin: 10px;		
 		}
+
+		#Music:hover{
+			opacity: 0.5;
+		}
 		#ProgramingInCSharp{
 			float: left;
 			width: 300px;
@@ -77,6 +99,9 @@ body{
 			background-size: 100%;
 			margin: 10px;
 		}
+		#ProgramingInCSharp:hover{
+			opacity: 0.5;
+		}
 		#Coaching{
 			float: left;
 			width: 300px;
@@ -84,6 +109,9 @@ body{
 			background-image: url(Sports-Psychology.png);
 			background-size: 100%;
 			margin: 10px;
+		}
+		#Coaching:hover{
+			opacity: 0.5;
 		}
 	
 		#WebDeveloping{
@@ -94,6 +122,9 @@ body{
 			background-size: 100%;
 			margin: 10px;
 		}
+		#WebDeveloping:hover{
+			opacity: 0.5;
+		}
 		#Diet{
 			float: left;
 			width: 300px;
@@ -102,6 +133,9 @@ body{
 			background-size: 100%;
 			margin: 10px;
 		}
+		#Diet:hover{
+			opacity: 0.5;
+		}
 		#Games{
 			float: left;
 			width: 300px;
@@ -109,6 +143,9 @@ body{
 			background-image: url(games.ico);
 			background-size: 100%;
 			margin: 10px;
+		}
+		#Games:hover{
+			opacity: 0.5;
 		}
 	
 	

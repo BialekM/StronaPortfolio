@@ -11,51 +11,38 @@
 		<div id="header">
 			<h1>Witaj Na mojej Stronie internetowej</h1>
 		</div>
+					<div id="Bikes" onmouseover="InformationAboutBike()" onmouseout="DeleteInformationAboutBike()">
+						<div id="BikesBackground"></div>
+						<div id="BikesText"></div>
+					</div>
 
-
-			
-			
-				
-					<div id="Bikes">
-						<div id="BikesText"> <h1> Jakis tekst o Rowerach</h1></div>
-						</div>
-						
-				
 					<div id="CombatSports"><h1></h1></div>
-				
-				
-				
+
 					<div id="technology"><h1></h1></div>
-	
 
-			
-				
 					<div id="Music"><h1><h1></div>
-				
-				
-				
-					<div id="ProgramingInCSharp"></div>
-				
-				
-			
-					<div id="Coaching"></div>
-				
-		
 
-				
-			
-			
+					<div id="ProgramingInCSharp"></div>
+
+					<div id="Coaching"></div>
+
 					<div id="WebDeveloping"></div>
-		
-				
-			
+
 					<div id="Diet"></div>
-			
-				
-				
+
 					<div id="Games"></div>
-	
-		
-	</div>	
+	</div>
+	<script>
+	function InformationAboutBike(){
+			var tekst = "Jeżeli interesujesz się jazdą na rowerze, masz ochotę poznać nowe trasy w pobliżu wrocławiu to zapraszam Cię tutaj";
+			document.getElementById("BikesText").innerHTML=tekst;
+	}
+	function DeleteInformationAboutBike(){
+			var tekst = "";
+			document.getElementById("BikesText").innerHTML=tekst;
+	}
+</script>
 </body>
+
+
 </html>
