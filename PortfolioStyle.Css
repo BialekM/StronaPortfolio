@@ -31,26 +31,29 @@ body{
 			height: 300px;
 			float: left;
 			margin: 10px;
-			color: greenyellow;
 		}
 		
 		#BikesBackground{
 			width: 300px;
 			height: 300px;
-			position: relative;
+			position: absolute;
 			background-image: url(min_mtb.jpg);
 			background-size: 100%;
-			z-index: 1;
+			
 		}
 		#BikesText{
+			display:table-cell;
 			width: 300px;
 			height: 300px;
-			position: relative;
-			z-index: 2;
+			position: static;
 			text-align: center;
+			vertical-align: middle;
+			top: -300px;
+			color: white;
+			font-size: 18px;
 		}
 		#BikesBackground:hover{ 
-			opacity: 0.5;
+			opacity: 0.4;
 		}
 		#CombatSports{
 			float: left;
